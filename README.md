@@ -8,9 +8,9 @@ Each framework have its *_train.py script
 
 Execute with arguments as follows : script dataset epoch model_name
 
-''' sh
+``` sh
 python3 keras_train.py dataset/body_parts 15 body_parts
-'''
+```
 
 or script framework dataset epoch model_name
 
