@@ -14,23 +14,23 @@ python3 keras_train.py dataset/body_parts 15 body_parts
 
 or script framework dataset epoch model_name
 
-sh
-    python3 train.py keras dataset/body_parts 15 body_parts
-
+``` sh
+python3 train.py keras dataset/body_parts 15 body_parts
+``` 
 
 
 To test execute with arguments as follows : script model_name framework gpu
 
 With GPU acceleration
-''' sh
+``` sh
 python3 test.py body_parts pytorch gpu 
-'''
+```
 
 Only CPU 
 
-''' sh
+``` sh
 python3 test.py body_parts pytorch  
-'''
+```
 
 # From GUI this format should be received
 
